@@ -1,5 +1,7 @@
 # Mozilla InfoSec Reference Implementation of Kubernetes
 
+## This work in progress reference implementation has been archived and is no longer supported.
+
 ## Turning up a cluster for N00Bz
 
 __Prod Exports__
@@ -7,7 +9,7 @@ __Prod Exports__
 ```bash
 export STAGE=prod
 export AWS_REGION=us-west-2
-export KOPS_STATE_STORE=s3://kops.security.mozilla.org
+export KOPS_STATE_STORE=s3://kops.prod.example.com
 ```
 
 __Dev Exports__
@@ -15,7 +17,7 @@ __Dev Exports__
 ```bash
 export STAGE=dev
 export AWS_REGION=us-west-2
-export KOPS_STATE_STORE=s3://kops.security.allizom.org
+export KOPS_STATE_STORE=s3://kops.dev.example.com
 ```
 
 ## Learn All the things

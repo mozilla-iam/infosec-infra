@@ -51,11 +51,11 @@ a variable file_.  The mission of a values file is simple.
 Variable don't get a `---` header like in some templating languages.  They are simply key: value.
 
 ```yaml
-name: us-west-2.infra.security.allizom.org
+name: us-west-2.infra.dev.example.com
 maxPrice: "0.04"
 awsRegion: us-west-2
-zoneId: Z1AY0K1T7473M8
-kopsState: s3://kops.security.allizom.org/
+zoneId: Z1234567890ABC
+kopsState: s3://kops.dev.example.com/
 ```
 
 > Above is an example of the variables file used to drive cluster creation across these two accounts.  
